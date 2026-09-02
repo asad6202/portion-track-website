@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
+
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Portion Track",
@@ -54,7 +53,6 @@ const sections = [
 export default function PrivacyPolicyPage() {
   return (
     <>
-      <Header />
       <main className="mx-auto max-w-3xl px-4 py-16 sm:px-6 sm:py-20">
         <h1 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
           Privacy Policy
@@ -101,7 +99,6 @@ export default function PrivacyPolicyPage() {
           ← Back to home
         </Link>
       </main>
-      <Footer />
     </>
   );
 }

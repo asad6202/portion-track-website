@@ -6,7 +6,7 @@ type StoreBadgesProps = {
 
 export function StoreBadges({ className = "" }: StoreBadgesProps) {
   return (
-    <div className={`flex flex-wrap items-center gap-3 sm:gap-4 ${className}`}>
+    <div className={`flex flex-wrap items-center gap-3 sm:gap-2 ${className}`}>
       <a
         href="https://apps.apple.com/us/app/portion-track/id6756213687"
         target="_blank"
@@ -35,7 +35,7 @@ export function StoreBadges({ className = "" }: StoreBadgesProps) {
           alt="Get it on Google Play"
           width={135}
           height={40}
-          className="h-10 w-auto sm:h-11"
+          className="h-10 w-auto sm:h-16"
         />
       </a>
     </div>

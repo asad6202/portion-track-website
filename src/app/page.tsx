@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
 import { PhoneMockup } from "@/components/PhoneMockup";
+import { PowerfulFeaturesGrid } from "@/components/PowerfulFeaturesGrid";
 import { StoreBadges } from "@/components/StoreBadges";
 
 const features = [
@@ -35,25 +34,6 @@ const features = [
     icon: "🏢",
     accent: "bg-brand-blue-soft text-brand-blue",
     href: "/corporate-wellness",
-  },
-];
-
-const screenshots = [
-  {
-    src: "/assets/images/See Your Progress.png",
-    alt: "See your progress over time in Portion Track",
-  },
-  {
-    src: "/assets/images/Build better habits.png",
-    alt: "Build better eating habits with Portion Track",
-  },
-  {
-    src: "/assets/images/Meal Scan Output Iphone.png",
-    alt: "Meal scan results on iPhone",
-  },
-  {
-    src: "/assets/images/Progress and Goals.png",
-    alt: "Track progress and goals in the app",
   },
 ];
 
@@ -107,7 +87,6 @@ const testimonials = [
 export default function Home() {
   return (
     <>
-      <Header />
 
       <main>
         {/* Hero */}
@@ -128,15 +107,35 @@ export default function Home() {
                 tap, skip the calorie counting, and now track exercise too — all in
                 one calm, easy-to-use app.
               </p>
-              <StoreBadges className="mt-8" />
+              <StoreBadges className="mt-5" />
+              <div className="mt-8 flex items-center gap-8 max-w-md">
+                <div>
+                  <p className="text-3xl font-semibold">4.8</p>
+                  <p className="mt-1 text-xs">App Store rating</p>
+                </div>
+                <div className="h-10 w-px bg-gray-300" />
+                <div>
+                  <p className="text-3xl font-semibold">120k+</p>
+                  <p className="mt-1 text-xs">Portions logged</p>
+                </div>
+               
+              </div>
             </div>
 
             <div className="flex justify-center lg:justify-end">
-              <PhoneMockup
+              {/* <PhoneMockup
                 src="/assets/images/Meal Scan Iphone.png"
                 alt="Portion Track meal scan on iPhone"
                 priority
-              />
+              /> */}
+                <Image
+        src="/assets/images/app-dial.jpg"
+        alt="App screenshot"
+        width={442}
+        height={1024}
+        className="mx-auto h-auto w-full max-h-[35rem]"
+        priority
+      />
             </div>
           </div>
         </section>
@@ -195,30 +194,8 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Screenshots */}
-        <section className="bg-brand-green-soft/40 py-16 sm:py-20">
-          <div className="mx-auto max-w-6xl px-4 sm:px-6">
-            <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-                See it in action
-              </h2>
-              <p className="mt-4 text-lg text-muted">
-                A beautiful, intuitive experience designed for real life.
-              </p>
-            </div>
-
-            <div className="mt-12 grid grid-cols-2 gap-6 sm:gap-8 lg:grid-cols-4">
-              {screenshots.map((shot, index) => (
-                <PhoneMockup
-                  key={shot.src}
-                  src={shot.src}
-                  alt={shot.alt}
-                  priority={index === 0}
-                />
-              ))}
-            </div>
-          </div>
-        </section>
+        {/* Powerful Features Grid Section */}
+        <PowerfulFeaturesGrid />
 
         {/* How It Works */}
         <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
@@ -272,12 +249,12 @@ export default function Home() {
                 rhythm.
               </p>
             </div>
-            <div className="overflow-hidden rounded-2xl shadow-lg">
+            <div className="overflow-hidden rounded-2xl shadow-lg border border-border">
               <Image
-                src="/assets/images/No Calorie Counting.png"
-                alt="No calorie counting — just tap to add portions"
+                src="/assets/images/Balanced Plate Image.png"
+                alt="Balanced healthy portion meal plate"
                 width={800}
-                height={600}
+                height={800}
                 className="h-auto w-full object-cover"
               />
             </div>
@@ -343,7 +320,6 @@ export default function Home() {
         </section>
       </main>
 
-      <Footer />
     </>
   );
 }

@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Footer } from "@/components/Footer";
-import { Header } from "@/components/Header";
+
 
 export const metadata: Metadata = {
   title: "Corporate Wellness | Portion Track",
@@ -44,7 +43,6 @@ const benefits = [
 export default function CorporateWellnessPage() {
   return (
     <>
-      <Header />
       <main>
         <section className="bg-gradient-to-b from-brand-blue-soft to-background py-16 sm:py-20">
           <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2">
@@ -136,7 +134,6 @@ export default function CorporateWellnessPage() {
           </Link>
         </section>
       </main>
-      <Footer />
     </>
   );
 }
