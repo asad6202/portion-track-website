@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { PhoneMockup } from "@/components/PhoneMockup";
+import { BalancedPlateDial } from "@/components/BalancedPlateDial";
 import { PowerfulFeaturesGrid } from "@/components/PowerfulFeaturesGrid";
 import { StoreBadges } from "@/components/StoreBadges";
+import { TipsCarousel } from "@/components/TipsCarousel";
 
 const features = [
   {
@@ -249,7 +250,7 @@ export default function Home() {
                 rhythm.
               </p>
             </div>
-            <div className="overflow-hidden rounded-2xl shadow-lg border border-border">
+            <div className="overflow-hidden rounded-2xl border border-border shadow-lg">
               <Image
                 src="/assets/images/Balanced Plate Image.png"
                 alt="Balanced healthy portion meal plate"
@@ -257,6 +258,31 @@ export default function Home() {
                 height={800}
                 className="h-auto w-full object-cover"
               />
+            </div>
+          </div>
+        </section>
+
+        {/* Tips carousel — same content planned for the Today screen in the app */}
+        <section className="bg-gradient-to-b from-background via-brand-green-soft/35 to-background py-16 sm:py-20">
+          <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-wide text-brand-green">
+                Tips for you
+              </p>
+              <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+                Little nudges as you track
+              </h2>
+              <p className="mt-4 text-lg leading-relaxed text-muted">
+                The same tips you see on the website will rotate on the Today
+                screen in the app — swipe through, or let them advance as you
+                build your plate.
+              </p>
+              <div className="mt-8">
+                <TipsCarousel />
+              </div>
+            </div>
+            <div className="flex justify-center">
+              <BalancedPlateDial className="max-w-[300px]" />
             </div>
           </div>
         </section>
