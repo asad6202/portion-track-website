@@ -30,7 +30,7 @@ const principles = [
     description:
       "Every feature is part of the core Portion Track experience. We will never build premium feature tiers or charge extra to unlock new functionality. Every feature provides meaningful value, strengthens the core experience, and helps users build healthier habits.",
     icon: "⭐️",
-    accent: "bg-amber-50 text-amber-600 border-amber-200",
+    accent: "bg-brand-blue-soft text-brand-blue border-brand-blue/20",
     badge: "Transparent Pricing",
   },
   {
@@ -54,7 +54,7 @@ const principles = [
     description:
       "We encourage better choices—not guilt or judgment. Every meal is an opportunity to move forward. Portion Track supports real people with real schedules, real families, and real meals.",
     icon: "🌱",
-    accent: "bg-emerald-50 text-emerald-700 border-emerald-200",
+    accent: "bg-brand-green-soft text-brand-green border-brand-green/20",
     badge: "Sustainable Habit",
   },
 ];
