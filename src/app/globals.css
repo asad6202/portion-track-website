@@ -12,6 +12,11 @@
   --muted: #5c7369;
   --card: #ffffff;
   --border: #e2ebe6;
+  /* Plate colors from the polished Today dial — shared with the app */
+  --plate-veggies: #6f8f75;
+  --plate-protein: #e4d6c4;
+  --plate-fats: #c5cbb8;
+  --plate-carbs: #c16c4e;
 }
 
 @theme inline {
@@ -26,6 +31,10 @@
   --color-muted: var(--muted);
   --color-card: var(--card);
   --color-border: var(--border);
+  --color-plate-veggies: var(--plate-veggies);
+  --color-plate-protein: var(--plate-protein);
+  --color-plate-fats: var(--plate-fats);
+  --color-plate-carbs: var(--plate-carbs);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
