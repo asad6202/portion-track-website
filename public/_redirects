@@ -1,0 +1,16 @@
+# Case / trailing-slash aliases for the permanent smart link
+/App    /app  301
+/APP    /app  301
+/app/   /app  301
+/App/   /app  301
+/APP/   /app  301
+
+# Soft URL aliases → canonical pages (fixes Search Console 404s)
+/privacy          /privacy-policy  301
+/privacy/         /privacy-policy  301
+/privacy-policy/  /privacy-policy  301
+/terms            /terms-of-use    301
+/terms/           /terms-of-use    301
+/terms-of-use/    /terms-of-use    301
+/our-mission/     /our-mission     301
+/corporate-wellness/ /corporate-wellness 301
