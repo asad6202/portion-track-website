@@ -11,18 +11,15 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-card/90 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4">
-        <Link href="/" className="flex items-center gap-3 sm:gap-3.5">
+        <Link href="/" className="flex items-center shrink-0">
           <Image
-            src="/assets/images/portiontrack_appicon_png.png"
-            alt=""
-            width={56}
-            height={56}
-            className="h-11 w-11 shrink-0 rounded-xl shadow-sm sm:h-12 sm:w-12"
+            src="/assets/images/portiontrack_logo_wordmark.png"
+            alt="PortionTrack"
+            width={160}
+            height={149}
+            className="h-12 w-auto sm:h-14"
             priority
           />
-          <span className="text-lg font-semibold tracking-tight text-foreground sm:text-xl">
-            Portion Track
-          </span>
         </Link>
 
         <nav className="flex items-center gap-1 sm:gap-2">
