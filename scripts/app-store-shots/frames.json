@@ -1,0 +1,101 @@
+[
+  {
+    "id": "01-glp1-support",
+    "headline": "New: GLP-1\nSupport",
+    "sub": "Protein first, plenty of water, and balanced portions that fit your journey.",
+    "media": "ui-glp1-goal-targets.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "mint",
+    "badge": "NEW GOAL",
+    "focus": "top center"
+  },
+  {
+    "id": "02-steps",
+    "headline": "Steps that\nfit your day",
+    "sub": "See daily movement next to your portions",
+    "media": "ui-steps.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "mint",
+    "badge": "APPLE HEALTH · HEALTH CONNECT",
+    "focus": "top center"
+  },
+  {
+    "id": "03-portions-not-calories",
+    "headline": "Track portions,\nnot calories",
+    "sub": "Healthy eating without the math",
+    "media": "web-no-calorie.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "green",
+    "badge": "SIMPLER THAN COUNTING",
+    "focus": "top center"
+  },
+  {
+    "id": "04-snap-a-meal",
+    "headline": "Snap a meal.\nDone.",
+    "sub": "Photo scan estimates your portions instantly",
+    "media": "web-meal-scan.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "blue",
+    "badge": "AI MEAL SCAN",
+    "focus": "top center"
+  },
+  {
+    "id": "05-tap-to-track",
+    "headline": "Tap. Track.\nDone.",
+    "sub": "Build your plate in seconds",
+    "media": "web-simply-tap.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "mint",
+    "badge": "FAST LOGGING",
+    "focus": "top center"
+  },
+  {
+    "id": "06-just-balance",
+    "headline": "No rules,\njust balance",
+    "sub": "See when your day feels complete",
+    "media": "ui-plate-full.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "green",
+    "badge": "VISUAL PLATE",
+    "focus": "top center"
+  },
+  {
+    "id": "07-habits-you-see",
+    "headline": "Habits\nyou can see",
+    "sub": "Consistency over perfection",
+    "media": "web-habits.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "blue",
+    "badge": "PROGRESS YOU FEEL",
+    "focus": "top center"
+  },
+  {
+    "id": "08-one-portion",
+    "headline": "See your\nprogress",
+    "sub": "Weight trends that keep you moving",
+    "media": "web-progress.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "sunset",
+    "badge": "BUILT TO LAST",
+    "focus": "top center"
+  },
+  {
+    "id": "09-meal-scan",
+    "headline": "Snap a meal.\nDone.",
+    "sub": "AI estimates your portions instantly",
+    "media": "ui-meal-scan-camera-clean.png",
+    "layout": "device",
+    "fit": "cover",
+    "theme": "green",
+    "badge": "AI MEAL SCAN",
+    "focus": "center center"
+  }
+]

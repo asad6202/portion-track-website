@@ -1,0 +1,101 @@
+[
+  {
+    "id": "01-glp1-support",
+    "headline": "Nuevo: apoyo\nGLP-1",
+    "sub": "Proteína primero, mucha agua y porciones equilibradas para tu camino.",
+    "media": "ui-glp1-goal-targets.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "mint",
+    "badge": "NUEVA META",
+    "focus": "top center"
+  },
+  {
+    "id": "02-steps",
+    "headline": "Pasos que\nencajan en tu día",
+    "sub": "Ve tu movimiento diario junto a tus porciones",
+    "media": "ui-steps-es.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "mint",
+    "badge": "APPLE HEALTH · HEALTH CONNECT",
+    "focus": "top center"
+  },
+  {
+    "id": "03-portions-not-calories",
+    "headline": "Rastrea porciones,\nno calorías",
+    "sub": "Come sano sin tantos números",
+    "media": "web-no-calorie.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "green",
+    "badge": "MÁS FÁCIL QUE CONTAR",
+    "focus": "top center"
+  },
+  {
+    "id": "04-snap-a-meal",
+    "headline": "Fotografía tu comida.\nListo.",
+    "sub": "El escaneo estima tus porciones al instante",
+    "media": "web-meal-scan-es.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "blue",
+    "badge": "ESCANEO CON IA",
+    "focus": "top center"
+  },
+  {
+    "id": "05-tap-to-track",
+    "headline": "Toca. Registra.\nListo.",
+    "sub": "Arma tu plato en segundos",
+    "media": "web-simply-tap-es.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "mint",
+    "badge": "REGISTRO RÁPIDO",
+    "focus": "top center"
+  },
+  {
+    "id": "06-just-balance",
+    "headline": "Sin reglas,\nsolo balance",
+    "sub": "Ajusta y registra porciones en segundos",
+    "media": "ui-meal-scan-es.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "green",
+    "badge": "REGISTRA PORCIONES",
+    "focus": "top center"
+  },
+  {
+    "id": "07-habits-you-see",
+    "headline": "Hábitos\nque puedes ver",
+    "sub": "La constancia importa más que la perfección",
+    "media": "web-habits-es.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "blue",
+    "badge": "PROGRESO REAL",
+    "focus": "top center"
+  },
+  {
+    "id": "08-one-portion",
+    "headline": "Mira tu\nprogreso",
+    "sub": "Tendencias de peso que te mantienen en marcha",
+    "media": "web-progress-es.png",
+    "layout": "device",
+    "fit": "contain",
+    "theme": "sunset",
+    "badge": "HECHO PARA DURAR",
+    "focus": "top center"
+  },
+  {
+    "id": "09-meal-scan",
+    "headline": "Fotografía tu comida.\nListo.",
+    "sub": "La IA estima tus porciones al instante",
+    "media": "ui-meal-scan-camera-clean-es.png",
+    "layout": "device",
+    "fit": "cover",
+    "theme": "green",
+    "badge": "ESCANEO CON IA",
+    "focus": "center center"
+  }
+]
