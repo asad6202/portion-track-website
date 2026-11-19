@@ -51,7 +51,7 @@ export function PowerfulFeaturesGrid() {
                   </div>
                   <div className="flex items-center gap-1.5 font-medium text-muted">
                     <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-plate-carbs" />
-                    <span>Carbs: <strong className="text-foreground">1</strong></span>
+                    <span>Grains &amp; starchy veggies: <strong className="text-foreground">1</strong></span>
                   </div>
                   <div className="flex items-center gap-1.5 font-medium text-muted">
                     <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-plate-fats" />
@@ -101,7 +101,7 @@ export function PowerfulFeaturesGrid() {
                 </div>
                 <div className="space-y-1">
                   <div className="flex justify-between text-xs font-bold text-foreground">
-                    <span className="text-plate-carbs">Carbs</span>
+                    <span className="text-plate-carbs">Grains &amp; starchy veggies</span>
                     <span>{carbsTarget} Portions</span>
                   </div>
                   <input
@@ -139,26 +139,33 @@ export function PowerfulFeaturesGrid() {
           <div className="grid grid-cols-1 divide-y divide-border/60 md:grid-cols-3 md:divide-x md:divide-y-0">
             <div className="group flex flex-col items-center justify-between p-6 transition-colors hover:bg-brand-green-soft/20 sm:p-8">
               <div className="relative flex h-52 w-full max-w-[280px] items-center justify-center gap-3">
-                <div className="flex h-28 w-24 flex-col items-center rounded-2xl bg-foreground p-2.5 text-white shadow-md">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full border-4 border-brand-green bg-white text-xs font-extrabold text-foreground">
-                    72.5
+                <div className="flex h-36 w-40 flex-col justify-between rounded-2xl border border-brand-green/30 bg-foreground p-3 shadow-lg">
+                  <span className="text-[10px] font-bold text-brand-green-light">
+                    Today&apos;s portions
+                  </span>
+                  <div className="space-y-2 pt-2">
+                    <div className="flex items-center justify-between text-[10px] text-white/80">
+                      <span>Protein</span>
+                      <span className="font-semibold text-white">3 / 3</span>
+                    </div>
+                    <div className="h-1.5 overflow-hidden rounded-full bg-white/20">
+                      <div className="h-full w-full rounded-full bg-plate-protein" />
+                    </div>
+                    <div className="flex items-center justify-between text-[10px] text-white/80">
+                      <span>Veggies</span>
+                      <span className="font-semibold text-white">2 / 3</span>
+                    </div>
+                    <div className="h-1.5 overflow-hidden rounded-full bg-white/20">
+                      <div className="h-full w-2/3 rounded-full bg-plate-veggies" />
+                    </div>
+                    <div className="rounded-md bg-brand-green/20 px-2 py-1 text-center text-[10px] font-semibold text-brand-green-light">
+                      5-day habit streak
+                    </div>
                   </div>
-                  <span className="mt-2 text-[10px] font-semibold uppercase tracking-widest text-white/70">kg / lbs</span>
-                </div>
-                <div className="flex h-36 w-28 flex-col justify-between rounded-2xl border border-brand-green/30 bg-foreground p-2 shadow-lg">
-                  <span className="text-[10px] font-bold text-brand-green-light">Weight Trend</span>
-                  <div className="flex flex-1 items-end justify-between gap-1 px-1 pb-1 pt-4">
-                    <div className="h-[80%] w-3 rounded-t bg-brand-green" />
-                    <div className="h-[70%] w-3 rounded-t bg-brand-green" />
-                    <div className="h-[60%] w-3 rounded-t bg-brand-green-light" />
-                    <div className="h-[45%] w-3 rounded-t bg-plate-veggies" />
-                    <div className="h-[35%] w-3 rounded-t bg-plate-fats" />
-                  </div>
-                  <span className="text-center text-[9px] text-white/60">-3.2 lbs total</span>
                 </div>
               </div>
               <h3 className="mt-6 text-center text-lg font-bold text-foreground">
-                Weight Tracking & Charts
+                Daily Check-in &amp; Habit Streaks
               </h3>
             </div>
 

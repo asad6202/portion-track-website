@@ -30,7 +30,7 @@ const sections = [
   },
   {
     title: "Subscriptions and Payments",
-    body: "Subscription purchases are processed by Apple through the App Store. Portion Track does not receive or store your payment card or bank account information. Apple may provide Portion Track with subscription and transaction information needed to manage purchases and understand subscription performance.",
+    body: "Subscription purchases are processed by Apple through the App Store and by Google through Google Play. Portion Track does not receive or store your payment card or bank account information. Apple or Google may provide Portion Track with subscription and transaction information needed to manage purchases and understand subscription performance.",
   },
   {
     title: "User Control and Data Deletion",
@@ -58,6 +58,7 @@ export default function PrivacyPolicyPage() {
           Privacy Policy
         </h1>
         <p className="mt-2 text-lg text-muted">Portion Track</p>
+        <p className="mt-1 text-sm text-muted">Last updated: November 19, 2026</p>
 
         <div className="mt-10 space-y-10">
           {sections.map((section) => (

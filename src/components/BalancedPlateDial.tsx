@@ -41,7 +41,7 @@ export function BalancedPlateDial({
             <span className="block text-[9px] font-medium opacity-70">Healthy fats</span>
           </p>
           <p className="pointer-events-none absolute bottom-[20%] right-[12%] w-[32%] text-center text-[10px] font-semibold leading-tight text-white sm:text-[11px]">
-            Carbs
+            Grains
             <span className="block text-[9px] font-medium opacity-90">25%</span>
           </p>
           <div className="pointer-events-none absolute left-1/2 top-1/2 flex h-[4.5rem] w-[4.5rem] -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-full bg-white text-center shadow-sm">

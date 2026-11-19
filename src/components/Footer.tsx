@@ -8,8 +8,8 @@ export function Footer() {
           <div>
             <p className="text-lg font-semibold text-foreground">Portion Track</p>
             <p className="mt-2 max-w-xs text-sm leading-relaxed text-muted">
-              Simple meal portion tracking without calorie counting — plus exercise
-              tracking to support your whole wellness journey.
+              Simple meal portion tracking without calorie counting — plus GLP-1
+              Support to help lasting habits stick.
             </p>
           </div>
 

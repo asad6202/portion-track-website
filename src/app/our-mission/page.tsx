@@ -191,8 +191,8 @@ export default function OurMissionPage() {
                 Start Building Healthy Eating Habits Today
               </h3>
               <p className="mt-4 text-base leading-relaxed text-white/90 sm:text-lg">
-                Join thousands of users simplifying their nutrition through balanced
-                portions, exercise tracking, and no calorie counting.
+                Start building healthy eating habits today — with balanced portions,
+                GLP-1 Support, and no calorie counting.
               </p>
               <div className="mt-8 flex justify-center">
                 <StoreBadges />

@@ -14,10 +14,10 @@ const features = [
     accent: "bg-brand-green-soft text-brand-green",
   },
   {
-    title: "Exercise Tracking",
+    title: "GLP-1 Support",
     description:
-      "Log workouts alongside your meals to build a complete picture of your wellness habits. NEW!",
-    icon: "💪",
+      "Your appetite is changing. Make it count for habits that last. Protein-first portion targets for people taking GLP-1 medications.",
+    icon: "💚",
     accent: "bg-brand-blue-soft text-brand-blue",
     badge: "NEW",
   },
@@ -63,8 +63,7 @@ const testimonials = [
   {
     title: "So easy!",
     author: "JuliePaquette",
-    quote:
-      "I love this app! It's so easy to use and so user-friendly.",
+    quote: "I love this app! It's so easy to use and so user-friendly.",
   },
   {
     title: "Simple Tracking",
@@ -88,7 +87,6 @@ const testimonials = [
 export default function Home() {
   return (
     <>
-
       <main>
         {/* Hero */}
         <section className="relative overflow-hidden bg-gradient-to-b from-brand-blue-soft via-background to-background">
@@ -98,45 +96,36 @@ export default function Home() {
           <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:gap-16 lg:py-24">
             <div>
               <p className="mb-4 inline-flex items-center rounded-full bg-brand-green-soft px-4 py-1.5 text-sm font-medium text-brand-green">
-                Now with Exercise Tracking
+                Now with GLP-1 Support
               </p>
               <h1 className="text-4xl font-bold leading-tight tracking-tight text-foreground sm:text-5xl lg:text-[3.25rem] lg:leading-[1.1]">
                 Track portions, not calories
               </h1>
               <p className="mt-5 max-w-lg text-lg leading-relaxed text-muted">
                 Portion Track makes healthy eating simple. Log meal portions with a
-                tap, skip the calorie counting, and now track exercise too — all in
-                one calm, easy-to-use app.
+                tap, skip the calorie counting, and get protein-first guidance for
+                GLP-1 journeys — all in one calm, easy-to-use app.
               </p>
               <StoreBadges className="mt-5" />
               <div className="mt-8 flex items-center gap-8 max-w-md">
                 <div>
                   <p className="text-3xl font-semibold">4.8</p>
-                  <p className="mt-1 text-xs">App Store rating</p>
+                  <p className="mt-1 text-xs">
+                    Average rating, App Store and Google Play
+                  </p>
                 </div>
-                <div className="h-10 w-px bg-gray-300" />
-                <div>
-                  <p className="text-3xl font-semibold">120k+</p>
-                  <p className="mt-1 text-xs">Portions logged</p>
-                </div>
-               
               </div>
             </div>
 
             <div className="flex justify-center lg:justify-end">
-              {/* <PhoneMockup
-                src="/assets/images/Meal Scan Iphone.png"
-                alt="Portion Track meal scan on iPhone"
+              <Image
+                src="/assets/images/app-store/iphone-61/01-glp1-support.png"
+                alt="Portion Track GLP-1 Support on iPhone"
+                width={442}
+                height={958}
+                className="mx-auto h-auto w-full max-h-[35rem] object-contain"
                 priority
-              /> */}
-                <Image
-        src="/assets/images/app-dial.jpg"
-        alt="App screenshot"
-        width={442}
-        height={1024}
-        className="mx-auto h-auto w-full max-h-[35rem]"
-        priority
-      />
+              />
             </div>
           </div>
         </section>
@@ -195,6 +184,33 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Privacy, built in */}
+        <section className="border-y border-border bg-card py-16 sm:py-20">
+          <div className="mx-auto max-w-3xl px-4 text-center sm:px-6">
+            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              Privacy, built in
+            </h2>
+            <p className="mt-5 text-lg leading-relaxed text-muted">
+              No accounts or sign-ups. Food logs stay on your phone. Optional meal
+              photo scans are analyzed and never stored or tied to you. No ads, no
+              tracking.
+            </p>
+          </div>
+        </section>
+
+        {/* Pricing */}
+        <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
+          <div className="mx-auto max-w-3xl rounded-3xl border border-border bg-gradient-to-b from-brand-green-soft/40 to-card p-8 text-center shadow-sm sm:p-12">
+            <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              One subscription, everything included
+            </h2>
+            <p className="mt-5 text-lg leading-relaxed text-muted">
+              7-day free trial, then $4.99 a month or $39.99 a year. No tiers,
+              add-ons or hidden paywalls.
+            </p>
+          </div>
+        </section>
+
         {/* Powerful Features Grid Section */}
         <PowerfulFeaturesGrid />
 
@@ -229,10 +245,28 @@ export default function Home() {
           </ol>
         </section>
 
-        {/* Our Mission */}
+        {/* Meet Amy */}
+        <section className="border-y border-border bg-card py-16 sm:py-20">
+          <div className="mx-auto max-w-3xl px-4 text-center sm:px-6">
+            <p className="text-sm font-semibold uppercase tracking-wide text-brand-green">
+              Meet Amy
+            </p>
+            <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
+              A real coach behind the app
+            </h2>
+            <p className="mt-5 text-lg leading-relaxed text-muted">
+              Amy is a Certified Integrative Nutrition Health Coach (Institute for
+              Integrative Nutrition, 2020) with an MBA. Portion Track grew out of a
+              2015 spreadsheet she built to make balanced eating simple — without
+              calorie counting.
+            </p>
+          </div>
+        </section>
+
+        {/* Our Mission teaser */}
         <section
           id="our-mission"
-          className="border-y border-border bg-card py-16 sm:py-20"
+          className="bg-background py-16 sm:py-20"
         >
           <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16">
             <div>
@@ -249,6 +283,12 @@ export default function Home() {
                 and movement, so wellness becomes a natural part of your daily
                 rhythm.
               </p>
+              <Link
+                href="/our-mission"
+                className="mt-6 inline-block text-sm font-semibold text-brand-green hover:underline"
+              >
+                Read our full mission →
+              </Link>
             </div>
             <div className="overflow-hidden rounded-2xl border border-border shadow-lg">
               <Image
@@ -262,7 +302,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Tips carousel — same content planned for the Today screen in the app */}
+        {/* Tips carousel */}
         <section className="bg-gradient-to-b from-background via-brand-green-soft/35 to-background py-16 sm:py-20">
           <div className="mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2 lg:gap-16">
             <div>
@@ -339,13 +379,12 @@ export default function Home() {
               Start building better habits today
             </h2>
             <p className="mt-4 text-lg text-white/90">
-              Download Portion Track free and discover a simpler way to eat well.
+              Download Portion Track and start with a 7-day free trial.
             </p>
             <StoreBadges className="mt-8 justify-center" />
           </div>
         </section>
       </main>
-
     </>
   );
 }
